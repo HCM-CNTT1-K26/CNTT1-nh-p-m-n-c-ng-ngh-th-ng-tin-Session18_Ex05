@@ -1,11 +1,10 @@
 # CNTT1-nh-p-m-n-c-ng-ngh-th-ng-tin-Session18_Ex05
-### Phần 1. Phân tích: Vai trò của JSON Viewer khi gỡ lỗi API
-
+### Phần 1. Phân tích
 Lúc hệ thống điều phối gọi dữ liệu GPS, máy chủ thường trả về một mớ chuỗi JSON thô (raw text) nhìn rất nhức mắt và cực kỳ khó dò lỗi bằng mắt thường. Lúc này, extension **JSON Viewer** đóng vai trò cứu cánh: nó tự động parse, phân cấp dữ liệu thành dạng cây (tree view) có thụt lề và tô màu cú pháp rõ ràng. Nhờ vậy, kỹ sư nhìn vào là tra cứu ngay được tọa độ vĩ độ/kinh độ, trạng thái xe hoặc phát hiện lỗi dữ liệu bất thường từ server trong một nốt nhạc.
 
 ---
 
-### Phần 2. Triển khai: 5 Tiện ích cốt lõi, Ghim Toolbar và Site Access
+### Phần 2. Triển khai
 
 1. **Chọn lọc 5 Extensions thiết yếu (tối ưu hóa RAM):**
 * *Nhóm Dev:* **JSON Viewer** (đọc hiểu cấu trúc API) và **Talend API Tester** (kiểm tra nhanh các HTTP request).
@@ -21,7 +20,7 @@ Lúc hệ thống điều phối gọi dữ liệu GPS, máy chủ thường tr�
 
 ---
 
-### Phần 3. Kiểm thử hiệu năng (Xử lý khi trình duyệt bị lag)
+### Phần 3. Kiểm thử 
 
 Đang soi biểu đồ Waterfall mà thấy máy có hiện tượng giật cục, khả năng cao là có extension đang chạy ngầm hút tài nguyên. Quy trình kiểm tra trực tiếp:
 
